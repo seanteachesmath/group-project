@@ -29,6 +29,12 @@ sentence <m>a^2 + b^2 = c^2</m>. A more fancy presentation is <me>x =
 \dfrac{-b \pm \sqrt{b^2-4ac}}{2a}.</me>
 		</p>
 		
+		<definition xml:id="def-tag">
+		<title>tag</title>
+		<statement>
+		This content was created with the <term>tag</term> for <c>definition</c>.  Also in use are the <term>tags</term> for <c>title</c>, <c>statement</c>, <c>term</c>, and <c>c</c>.
+		</statement>
+		</definition>
       </section>
     </chapter>
   </book>
