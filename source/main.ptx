@@ -26,8 +26,9 @@
 		<p>
 		This is a short sentence. This is an equation shown in the
 sentence <m>a^2 + b^2 = c^2</m>. A more fancy presentation is <me>x =
-\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}.</me>
+\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}.</me> Isn't that wonderful! Yes it is...
 		</p>
+
 		
 		<definition xml:id="def-tag">
 		<title>tag</title>
