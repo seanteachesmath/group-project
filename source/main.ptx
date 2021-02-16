@@ -36,6 +36,11 @@ sentence <m>a^2 + b^2 = c^2</m>. A more fancy presentation is <me>x =
 		</statement>
 		</definition>
       </section>
+      
+	<xi:include href="./sean/sean.ptx" />
+	<xi:include href="./devon/devon.ptx" />
+	<xi:include href="./eli/eli.ptx" />
+	
     </chapter>
   </book>
 </pretext>

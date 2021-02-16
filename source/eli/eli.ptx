@@ -1,0 +1,12 @@
+<section xml:id="sec-unique-keyword-eli">
+<title>Sample section</title>
+
+<subsection xml:id="sub-sec-reference-eli">
+<title>Sample subsection</title>
+
+<paragraphs xml:id="sample-eli">
+<title>Paragraph heading</title>
+
+</paragraphs>
+</subsection> 
+</section> 
