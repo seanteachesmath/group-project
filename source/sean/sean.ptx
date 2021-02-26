@@ -1,0 +1,13 @@
+<section xml:id="sec-unique-keyword-sean">
+<title>Sample section</title>
+
+<subsection xml:id="sub-sec-reference-sean">
+<title>Sample subsection</title>
+
+<paragraphs xml:id="paragraph-sean">
+<title>Paragraph heading</title>
+
+</paragraphs>
+</subsection> 
+
+</section> 
