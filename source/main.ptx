@@ -3,7 +3,7 @@
 
 
   <docinfo>
-
+	  
     <macros>
     \newcommand{\foo}{bar}
     </macros>
@@ -13,7 +13,6 @@
     </latex-image-preamble>
 
   </docinfo>
-  
   
   <book xml:id="group-project">
     <title>Group Project</title>
@@ -37,7 +36,7 @@ sentence <m>a^2 + b^2 = c^2</m>. A more fancy presentation is <me>x =
 		</statement>
 		</definition>
 		
-		<subsection xml:id="sub-align">
+		<section> xml:id="sub-align">
 		<title>Aligned content</title>
 	<p>To align equations, check out the following code <me>\begin{aligned}
 	(x+1)^2 &amp;= (x+1)(x+1)\\
@@ -46,8 +45,8 @@ sentence <m>a^2 + b^2 = c^2</m>. A more fancy presentation is <me>x =
 	\end{aligned}
 	</me>
 	</p>
-      </subsection>
-            </section>
+	  	</section>
+      </section>
       
 	<xi:include href="./sean/sean.ptx" />
 	<xi:include href="./devon/devon.ptx" />

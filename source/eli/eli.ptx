@@ -12,10 +12,10 @@
         </note>
     </introduction>
 
-    <subsection xml:id="getting-started">
+    <subsection xml:id="sub-getting-started">
         <title>Getting Started</title>
 
-        <example xml:id="setting-up">
+        <exercise xml:id="check-setting-up">
             <title>Setting Up</title>
             <p>
                 Getting started was one of the easier parts for me using a Linux operating system. 
@@ -29,10 +29,10 @@
                 <url href="https://pretextbook.github.io/pretext-cli/pretext-cli-documentation.html">PreTeXt CLI</url> guide 
                 when adding python to PATH.
             </p>
-        </example>
+        </exercise>
 
 
-        <example xml:id="next-steps">
+        <exercise xml:id="check-next-steps">
             <title>Next Steps</title>
             <p>
                 1.) After getting started, the next step is to begin undertaking your first book.
@@ -42,7 +42,7 @@
             <p>
                 2.) Then the fun begins! To create your first section, use the '&lt;section	&gt; and &lt;/section&gt;' tags. 
                 Type the desired contents inbetween these two tags to to write the section. When you create a sectionm, 
-                it is also good to add an 'xml:id' to the tag. This is inserted in the '&lt;section	&gt;' tag. Ex: <c>&lt;section xml:id="example-section"&gt;</c>
+                it is also good to add an 'xml:id' to the tag. This is inserted in the '&lt;section	&gt;' tag. Ex: <c>&lt;section xml:id="sec-example"&gt;</c>
             </p>
             <p>
                 3.) Add a title to your section by using the '&lt;title&gt; and &lt;/title&gt;' tags udnerneath the section you would like to define. 
@@ -51,46 +51,45 @@
             <note>
                 Steps 2 and 3 can be done with most any tag. 
             </note>
-        </example>
+        </exercise>
     </subsection> 
 
     
-    <subsection xml:id="General">
+    <subsection xml:id="sub-general">
         <title>General</title>
-        <example xml:id="math-notation">
+        <exercise xml:id="check-math-notation">
             <title>Math Notation</title>
-        </example>
+        </exercise>
         
-        <example xml:id="lists">
+        <exercise xml:id="check-lists">
             <title>Lists</title>
-        </example>
+        </exercise>
 
-        <example xml:id="subsections">
+        <exercise xml:id="check-subsections">
             <title>Subsections</title>
-        </example>
+        </exercise>
 
-        <example xml:id="images">
+        <exercise xml:id="check-images">
             <title>Images</title>
-        </example>
+        </exercise>
 
-        <example xml:id="imbedded-url">
+        <exercise xml:id="check-imbedded-url">
             <title>Imbedded Urls</title>
-        </example>
-        
+        </exercise>
     </subsection>
 
 
-    <subsection xml:id="mishaps-eli">
+    <subsection xml:id="sub-mishaps-eli">
         <title>Mishaps</title>
-        <example xml:id="syncing-with-git">
+        <exercise xml:id="check-syncing-with-git">
             <title>Syncing Using Git</title>
-        </example>
+        </exercise>
     </subsection>
     
 
-    <subsection xml:id="github_io">
+    <subsection xml:id="sub-githubio">
         <title>GitHub.io</title>
-        <example xml:id="github_io-setup">
+        <exercise xml:id="check-github_io-setup">
         <title>Setup</title>
         <p>
             Unfortunately I cannot (at this time) find the website that I used as a guide to build my GitHub.io site.
@@ -133,9 +132,9 @@
             </example>
             </p>
         </p>
-        </example>
+        </exercise>
 
-        <example xml:id="styling">
+        <exercise xml:id="check-styling">
             <title>Styling</title>
             If you want, you can also create a style sheet to change the appearance of your website. 
             Create a folder inside the main folder of the project called 'css'.
@@ -191,16 +190,16 @@
                 </p>
             </example>
             </p>
-        </example>
+        </exercise>
 
-        <example xml:id="adding-pretext">
+        <exercise xml:id="check-adding-pretext">
             <title>Adding Pretext Files</title>
             <p>
                 If you want to be able to host a PreTeXt project on your GitHub.io, make a folder in the main folder with the same name as your pretext book.
                 Then place the contents of your 'ouput/html' folder of the project inside of the folder you just created. 
                 If you want to create a link to this inside of your website. In the index.html template above, substitue <c>https://links.links</c> with the name of your pretext book folder <c>/my-book/</c>
             </p>
-        </example>
+        </exercise>
     </subsection>
 
 
