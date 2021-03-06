@@ -1,3 +1,7 @@
 Messages from application of /home/eli/.local/lib/python3.9/site-packages/pretext/static/xsl/pretext-html.xsl:
-MBX:WARNING: A section containing subsections needs to have other content inside an <introduction> and/or  <conclusion>.
-             located within: "section-sample" (xml:id), "First section" (title)
+PTX:BUG:   an element ("exercise") does not know its level
+             located within: "check-math-notation" (xml:id), "Math Notation" (title)
+PTX:BUG:   an element ("exercise") does not know its level
+             located within: "check-math-notation" (xml:id), "Math Notation" (title)
+PTX:BUG:   an element ("exercise") does not know its level
+             located within: "check-math-notation" (xml:id), "Math Notation" (title)

@@ -8,13 +8,13 @@
             Hopefully it is set up in an easily readable manner.
         </p>
         <note xml:id="note-tag"> 
-            I up open to any suggestions on the format of my section/subsecions.
+            I'm open to any suggestions on the format of my section/subsections.
         </note>
     </introduction>
 
     <subsection xml:id="sub-getting-started">
         <title>Getting Started</title>
-
+        
         <exercise xml:id="check-setting-up">
             <title>Setting Up</title>
             <p>
@@ -52,6 +52,7 @@
                 Steps 2 and 3 can be done with most any tag. 
             </note>
         </exercise>
+        
     </subsection> 
 
     
@@ -59,22 +60,101 @@
         <title>General</title>
         <exercise xml:id="check-math-notation">
             <title>Math Notation</title>
+            <p>Read more about math notaion <url href="https://pretextbook.org/doc/guide/html/topic-mathematics.html">here</url>.</p>
+            <p>
+                A short list of <c>General Tags</c> and how they are used:
+                <ul>
+                    <li><p> &lt;m&gt; is for inserting math notation <em>inline</em> </p></li>
+                    <li><p> &lt;me&gt; is used for inseting math notation <em>on it's own line</em> </p></li>
+                    <li><p> &lt;md&gt; is used for writing out a problem with the <em>equal signs lined up</em> </p></li>
+                    <li><p> &lt;mrow&gt; is used inside the &lt;md&gt; tag to distinguish each <em>row of the equation</em> 
+                        <note>
+                            When you use the &lt;mrow&gt; tag, the equal signs you want lined up must be preceded by \amp, ex: <q>\amp =</q>.
+                        </note></p></li>
+                </ul>
+            </p>
+            <p>
+                A short list of <c>Arithmatic Tags</c> (these tags must be used inside of <c>General Tags</c>):
+                <ul>
+                    <li><p> \int is how to write <em>indefinite integrals</em> </p></li>
+                    <li><p> \int_a^b is how to write <em>definite integrals</em> </p></li>
+                    <li><p> \lim_{n\to\infty} is how to write <em>limits to inifinity</em>
+                            ("n" and "\infinity" can be replaced by any parameters you want to take).
+                        </p></li>
+                    <li><p> \sum is how to get the <m>\Sigma</m> for <em>sumation notaion</em>, 
+                        but for it to work correctly you need to follow it with one of two tags: 
+                        <ul>
+                            <li><p> \limits_{i=1}^n </p></li>
+                            <li><p> \nolimits_{subscript} </p></li>
+                        </ul>
+                        <note>
+                            With \int, \lim_{n\to\infty} or \sum, if you want their sub and superscripts to appear above and below the symbol,
+                            you need to precede them with \displaystyle, ex: "\displaystyle\lim_{n\to\infty}" = <m>\displaystyle\lim_{n\to\infty}</m>
+                        </note>
+                        </p></li>
+                    <li><p> Greek letters can be written with "\" followed by the name of the letter, ex: "\Sigma, \sigma" = <m>\Sigma</m>, <m>\sigma</m> </p></li>
+                </ul>
+            </p>
         </exercise>
         
         <exercise xml:id="check-lists">
             <title>Lists</title>
+            <p>Read more about lists <url href="https://pretextbook.org/doc/guide/html/topic-lists.html">here</url>.</p>
+            <p>
+                There are three main types of lists available:
+                <ul>
+                    <li><p> unordered lists which use the &lt;ul&gt; tag </p></li>
+                    <li><p> ordered lists which use the &lt;ol&gt; tag </p></li>
+                    <li><p> description lists which use the &lt;dl&gt; tag </p></li>
+                </ul>
+                For each item/row, in any of the above, use the list item tag, &lt;li&gt;, followed by the paragraph tag &lt;p&gt; and place the contents inside.
+            </p> 
         </exercise>
 
         <exercise xml:id="check-subsections">
-            <title>Subsections</title>
+            <title>Divisions</title>
+            <p>Read more about subsections and documents divisions <url href="https://pretextbook.org/doc/guide/html/topic-divisions.html">here</url>.</p>
+            <p>
+                The three basic divisions inside of each pretext book are going to be the &lt;chapter&gt;, &lt;section&gt;, and &lt;subsection&gt;.
+                In my experience, when using the &lt;subsection&gt; tag, a &lt;introduction&gt; and a &lt;conclusion&gt; must be included before and after any subsection
+                in order for the compiler not to complain.
+                <note>
+                    If you have any information on how to fix this, I will update this section.
+                </note>
+            </p>
         </exercise>
 
         <exercise xml:id="check-images">
             <title>Images</title>
+            <p>Read more about images <url href="https://pretextbook.org/doc/guide/html/overview-images.html">here</url>.</p>
+            <p>
+                In order to include an image in a document, make a &lt;figure&gt; tag and place a &lt;caption&gt; tag inside of it.
+                If you want to have a description following the figure number, place that desciption inside of the &lt;caption&gt; tag.
+                Next, make a tag &lt;image source="images/name_of_image.png"/&gt; (make sure the image is placed inside the "output/html/images/" directory of the document).
+                If you want to have a description the line above the figure number, place the description in a &lt;description&gt; tag after the &lt;image/&gt; tag.
+                <example>
+                    <p>
+                        <p>&lt;figure&gt;</p>
+                        <p>&lt;caption&gt;abc&lt;/caption&gt;</p>
+                        <p>&lt;image source="images/name_of_image.png" width="60%"/&gt;</p>
+                        <p>&lt;description&gt;abc&lt;/description&gt;</p>
+                        <p>&lt;/figure&gt;</p>
+                    </p>
+                </example>
+                You can also specify the width in percent by placing width="NUMBER%" after the location of the source inside of the &lt;image/&gt; tag as shown in the above example.
+            </p>
         </exercise>
 
         <exercise xml:id="check-imbedded-url">
             <title>Imbedded Urls</title>
+            <p>Read more about imbedded urls <url href="https://pretextbook.org/doc/guide/html/topic-url.html">here</url>.</p>
+            <p>
+                Imbedding a url into a piece of text is similar in structure to the &lt;image/&gt; tag.
+                You will use the tag &lt;url href="https://link.com"&gt;name of link inline&lt;/url&gt;. 
+            </p>
+            <p>
+                The "name of the link inline" between the url tags will show up as blue text and will be underlined when you hover over it with your mouse. 
+            </p>
         </exercise>
     </subsection>
 
