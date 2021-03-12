@@ -156,6 +156,18 @@
                 The "name of the link inline" between the url tags will show up as blue text and will be underlined when you hover over it with your mouse. 
             </p>
         </exercise>
+
+        <exercise xml:id="check-tables">
+            <title>Tables</title>
+            <p>Read more about tables <url href="https://pretextbook.org/doc/guide/html/topic-tabular.html">here</url>.</p>
+            <p>
+                Tables can be made by going to <url>LaTeX Table Editor</url> and plugging in your information. You can import your tables from Excel or LaTeX.
+                Change the generate field from "LaTeX" to "PreTeXt" and copy the code that appears.
+                <note>
+                    The website is a little glitchy and gets stuck performing certain funtions. 
+                </note>
+            </p>
+        </exercise>
     </subsection>
 
 
