@@ -7,8 +7,14 @@
             It is broken up into subsections of different types of material.
             Hopefully it is set up in an easily readable manner.
         </p>
+        <p>
+            Back to my <url href="https://EsromGile.github.io">github.io</url>.
+        </p>
         <note xml:id="note-tag"> 
-            I'm open to any suggestions on the format of my section/subsections.
+	    <p>
+	    	I'm open to any suggestions on the format of my section/subsections.
+	    </p>
+
         </note>
     </introduction>
 
@@ -172,7 +178,7 @@
 
 
     <subsection xml:id="sub-mishaps-eli">
-        <title>Mishaps</title>
+        <title>Mishaps(*)</title>
         <exercise xml:id="check-syncing-with-git">
             <title>Syncing Using Git</title>
         </exercise>
