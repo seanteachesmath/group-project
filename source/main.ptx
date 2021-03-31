@@ -34,14 +34,20 @@ sentence <m>a^2 + b^2 = c^2</m>. A more fancy presentation is <me>x =
 		</statement>
 		</definition>
 		
-		<section> xml:id="sub-align">
+		<section xml:id="sub-align">
 		<title>Aligned content</title>
-	<p>To align equations, check out the following code <me>\begin{aligned}
+	<p>To align equations, check out the following code, <me>\begin{aligned}
 	(x+1)^2 &amp;= (x+1)(x+1)\\
 	&amp;= x^2+x+x+1\\
 	&amp;= x^2 + 2x +1
 	\end{aligned}
 	</me>
+	Or, perhaps better yet, 
+	<md>
+	<mrow>	(x+1)^2 &amp;= (x+1)(x+1)</mrow>
+	<mrow>	&amp;= x^2+x+x+1</mrow>
+	<mrow>	&amp;= x^2 + 2x +1</mrow>
+	</md>
 	</p>
 	  	</section>
       </section>
