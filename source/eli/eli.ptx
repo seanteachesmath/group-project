@@ -177,10 +177,18 @@
     </subsection>
 
 
-    <subsection xml:id="sub-mishaps-eli">
-        <title>Mishaps(*)</title>
+    <subsection xml:id="sub-roadblocks-eli">
+        <title>Roadblocks(*)</title>
         <exercise xml:id="check-syncing-with-git">
             <title>Syncing Using Git</title>
+        </exercise>
+        <exercise xml:id="subsection-issues">
+            <title>Subsection Issues</title>
+            <p>
+                One but/feature when using VSCode is that when you are adding a subsection, it seems to be required to add a introductiona and conclusion to that section.
+                I don't know if it is a problem with other IDE's/editors but it will not compile with out it. Also, the introduction or conclusion cannot both be empty,
+                you need to have something within at least one of them.
+            </p>
         </exercise>
     </subsection>
     
