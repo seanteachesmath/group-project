@@ -4,6 +4,7 @@
 	  
     <macros>
     \newcommand{\foo}{bar}
+    \DeclareMathOperator{\csch}{csch} <!-- Eli! -->
     </macros>
     
     <latex-image-preamble>
@@ -48,6 +49,8 @@ sentence <m>a^2 + b^2 = c^2</m>. A more fancy presentation is <me>x =
 	<mrow>	&amp;= x^2+x+x+1</mrow>
 	<mrow>	&amp;= x^2 + 2x +1</mrow>
 	</md>
+	
+	This is the hyperbolic cosecant function, <m>\csch(x)</m>. <!-- Eli! -->
 	</p>
 	  	</section>
       </section>
