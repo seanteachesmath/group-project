@@ -1,13 +1,12 @@
 <section xml:id="sec-unique-keyword-devon">
-<title>Sample section</title>
-
-<subsection xml:id="sub-sec-reference-devon">
 <title>Devon's Section</title>
 
+<subsection xml:id="sub-sec-reference-devon">
+<title></title>
+
 <paragraphs xml:id="sample-devon">
-<title>Paragraph heading</title>
-
+<title>Getting Started</title>
+Welcome! This is a concise guide for the newly-initiated on how to use PreText! Follow these steps, and you'll be creating and editing your own texts in no time!
 </paragraphs>
-
 </subsection> 
 </section> 
