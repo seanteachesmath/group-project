@@ -1,12 +1,26 @@
 <section xml:id="sec-unique-keyword-devon">
 <title>Devon's Section</title>
 
-<subsection xml:id="sub-sec-reference-devon">
-<title></title>
+
 
 <paragraphs xml:id="sample-devon">
-<title>Getting Started</title>
 Welcome! This is a concise guide for the newly-initiated on how to use PreText! Follow these steps, and you'll be creating and editing your own texts in no time!
 </paragraphs>
-</subsection> 
+<note>
+<p>This How-To will chronicle my experiences with GitHub and PreText. Yours may vary, so if there's anything I leave out, or do not thoroughly explain (or go into way too much detail explaining), please offer feedback. Thank you!</p>
+</note>
+
+<subsection>
+<title>Setting Up</title>
+<p>Setting everything up was... a bit difficult, as I am not the most tech savvy person around. But hey! If I can do it, than that certainly means anyone can. I use a Windows system, which the nice thing about that is, there's a ton of helpful guides out there one can follow if they're just as lost and clueless as I am. Python is necessary for running PreText. Below, you'll find a direct link to the download page on Python.org. Details about adding Python to your path can be found in the guide. Make sure that is done as it is a crucial step.</p>
+<ul>
+<li><p><url href="https://www.python.org/downloads/">Python</url></p></li>
+</ul>
+</subsection>
+
+<subsection>
+<title>Running PreText</title>
+<p>Once Python is installed, open your command prompt (Hit the Windows symbol key and x, select run, and type cmd.exe), </p>
+</subsection>
+
 </section> 
