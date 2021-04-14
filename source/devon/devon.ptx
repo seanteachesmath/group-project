@@ -20,7 +20,20 @@ Welcome! This is a concise guide for the newly-initiated on how to use PreText! 
 
 <subsection>
 <title>Running PreText</title>
-<p>Once Python is installed, open your command prompt (Hit the Windows symbol key and x, select run, and type cmd.exe), </p>
+<p>Once Python is installed, open your command prompt (Hit the Windows symbol key and x, select run, and type cmd.exe), and enter <quote>python -V</quote>. If the installation was successful, the command prompt should be able to locate Python and tell you the version you have installed. Note, that you will need Version 3.6 or better. </p>
+<p>Afterwards, you'll need to pick the directory where you want PreText to pull from. Picking the directory from the command promtp is simple. We'll use my directory as an example. Once my commnd prompt is open, I enter <quote>cd Documents\GitHub\Publishing</quote>. Once the directory has been changed, the command prompt will autofill the next line with your desired directory. Afterward, type<quote>pretext build html</quote> to begin creating output files (what you'll publish on the web).</p>
+<p>Got everything up and running? Great! Now we can move onto the best section! Writing!</p>
+</subsection>
+
+<subsection>
+<title>Basic Commands</title>
+<p>As with every written work, structure is key. And when it comes to online work, the structure it  heck of a lot more technical. Here's a quick list/breakdown of the basic commands to use for structuring your book:</p>
+<ul>
+<li><p>&lt; chapter&gt; &lt; /chapter &gt; Used to denote chapters of your book. If you plan on writing something with many chapters, or very long chapters however, it may benefit you to do the chpaters as separate documents. But, if your book is small enough, the chaoter tags should be fine.</p></li>
+<li><p>&lt; section&gt;  &lt; /section&gt; For creating sections. Note that sections will be automatically numbered based upon the chapters they fall in.</p></li>
+<li><p>&lt; subsection&gt;  &lt; /subsection&gt; Adding subsections to your sections. Again, these will be numbered automatically.</p></li>
+<li><p>&lt; p&gt; &lt; /p&gt; Used for making paragraphs. The &lt; paragraphs&gt; &lt; /paragraphs&gt; command can also be used.</p></li>
+</ul>
 </subsection>
 
 </section> 
