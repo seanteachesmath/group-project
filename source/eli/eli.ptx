@@ -58,6 +58,13 @@
                 Steps 2 and 3 can be done with most any tag. 
             </note>
         </exercise>
+        <exercise xml:id="basic-reference">
+            <title>Basic Reference</title>
+            <p>
+                If you need a quick reference for something, go 
+                <url href="https://pretextbook.org/doc/guide/html/part-basics.html">here</url>.
+            </p>
+        </exercise>
         
     </subsection> 
 
@@ -193,10 +200,17 @@
             </p>
         </exercise>
         <exercise xml:id="sech-csch">
-            <title>Problems with "\sech" and "\csch"</title>
+            <title>Problems with "\sech" and "\csch" -- RESOLVED</title>
             <p>
                 When in math mode, for some reason \sech and \csch do not work and you have to enter them a different way.
                 What worked for me so far is using \mathrm{sech} and \mathrm{csch} to make the text to display correctly. 
+                <assemblage xml:id="as-sech-issue-resolved">
+                    <title>Resolved</title>
+                    <p>
+                        In order to correctly display these, you must create a macro in the &lt;macros&gt; section of the main.ptx file. 
+                        You do this by adding "\DeclareMathOperator{\sech}{sech}" into the section. 
+                    </p>
+                </assemblage>
             </p>
         </exercise>
     </subsection>
@@ -316,7 +330,6 @@
             </p>
         </exercise>
     </subsection>
-
 
     <conclusion></conclusion>
 </section> 
