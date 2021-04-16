@@ -8,6 +8,8 @@
 %*                                          *%
 %********************************************%
 \documentclass[oneside,10pt,]{book}
+\usepackage{axessibility}
+
 %% Custom Preamble Entries, early (use latex.preamble.early)
 %% Default LaTeX packages
 %%   1.  always employed (or nearly so) for some purpose, or
@@ -422,7 +424,7 @@ colback=white, colbacktitle=white, coltitle=black, opacityfill=0.0} }
 %% Footnote marks in tcolorbox have broken linking under
 %% hyperref, so it is necessary to turn off all linking
 %% It *must* be given as a package option, not with \hypersetup
-\usepackage[hyperfootnotes=false]{hyperref}
+\usepackage[pdftitle=Book,pdflang=en-US, hyperfootnotes=false]{hyperref}
 %% configure hyperref's  \url  to match listings' inline verbatim
 \renewcommand\UrlFont{\small\ttfamily}
 %% Hyperlinking active in electronic PDFs, all links solid and blue
