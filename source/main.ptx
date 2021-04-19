@@ -10,6 +10,8 @@
     <latex-image-preamble>
     \usepackage{tikz}
     </latex-image-preamble>
+	
+    <rename element="project">Topic</rename>
 
   </docinfo>
   

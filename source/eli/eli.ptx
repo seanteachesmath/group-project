@@ -18,10 +18,10 @@
         </note>
     </introduction>
 
-    <subsection xml:id="sub-getting-started">
+    <exercise xml:id="sub-getting-started">
         <title>Getting Started</title>
         
-        <exercise xml:id="check-setting-up">
+        <project xml:id="check-setting-up">
             <title>Setting Up</title>
             <p>
                 Getting started was one of the easier parts for me using a Linux operating system. 
@@ -35,10 +35,10 @@
                 <url href="https://pretextbook.github.io/pretext-cli/pretext-cli-documentation.html">PreTeXt CLI</url> guide 
                 when adding python to PATH.
             </p>
-        </exercise>
+        </project>
 
 
-        <exercise xml:id="check-next-steps">
+        <project xml:id="check-next-steps">
             <title>Next Steps</title>
             <p>
                 1.) After getting started, the next step is to begin undertaking your first book.
@@ -57,16 +57,16 @@
             <note>
                 Steps 2 and 3 can be done with most any tag. 
             </note>
-        </exercise>
-        <exercise xml:id="basic-reference">
+        </project>
+        <project xml:id="basic-reference">
             <title>Basic Reference</title>
             <p>
                 If you need a quick reference for something, go 
                 <url href="https://pretextbook.org/doc/guide/html/part-basics.html">here</url>.
             </p>
-        </exercise>
+        </project>
         
-    </subsection> 
+    </exercise> 
 
     
     <subsection xml:id="sub-general">
