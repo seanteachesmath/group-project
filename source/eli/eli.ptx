@@ -183,7 +183,14 @@
             <p>
                 In order to make them "by-hand", you use the &lt;table&gt; tag (make sure to list an "xml:id" inside of the opening tag)
                 and then create the number of rows inside here with the &lt;row&gt; tag. Then place the number of cells you want in each row
-                with the &lt;cell&gt; tag. <c>not complete, will finish in the future</c>
+                with the &lt;cell&gt; tag. 
+            </p>
+            <p>
+                You can use the <c>halign</c> tag to change the alignment of a row or cell (ex: &lt;cell halign="right"&gt;).
+            </p>
+            <p> 
+                If you want to add lines to your cells/rows, you can use a <em>DIRECTION</em>="medium" inside the given tag, 
+                where <em>DIRECTION</em> can be: left, right, top, bottom (ex: &lt;cell bottom="medium"&gt;). This can be the normal left, right, or center.
             </p>
         </exercise>
     </subsection>
