@@ -1,13 +1,82 @@
 <section xml:id="sec-unique-keyword-devon">
-<title>Sample section</title>
+<title>Devon's Section</title>
 
-<subsection xml:id="sub-sec-reference-devon">
-<title>Sample subsection</title>
+
 
 <paragraphs xml:id="sample-devon">
-<title>Paragraph heading</title>
-
+Welcome! This is a concise guide for the newly-initiated on how to use PreText! Follow these steps, and you'll be creating and editing your own texts in no time!
 </paragraphs>
+<note>
+<p>This How-To will chronicle my experiences with GitHub and PreText. Yours may vary, so if there's anything I leave out, or do not thoroughly explain (or go into way too much detail explaining), please offer feedback. Thank you!</p>
+</note>
 
-</subsection> 
+<subsection>
+<title>Setting Up</title>
+<p>Setting everything up was... a bit difficult, as I am not the most tech savvy person around. But hey! If I can do it, than that certainly means anyone can. I use a Windows system, which the nice thing about that is, there's a ton of helpful guides out there one can follow if they're just as lost and clueless as I am. Python is necessary for running PreText. Below, you'll find a direct link to the download page on Python.org. Details about adding Python to your path can be found in the guide. Make sure that is done as it is a crucial step.</p>
+<ul>
+<li><p><url href="https://www.python.org/downloads/">Python</url></p></li>
+</ul>
+</subsection>
+
+<subsection>
+<title>Running PreText</title>
+<p>Once Python is installed, open your command prompt (Hit the Windows symbol key and x, select run, and type cmd.exe), and enter <quote>python -V</quote>. If the installation was successful, the command prompt should be able to locate Python and tell you the version you have installed. Note, that you will need Version 3.6 or better. </p>
+<p>Afterwards, you'll need to pick the directory where you want PreText to pull from. Picking the directory from the command prompt is simple. We'll use my directory as an example. Once my commnd prompt is open, I enter <quote>cd Documents\GitHub\Publishing</quote>. Once the directory has been changed, the command prompt will autofill the next line with your desired directory. Afterward, type<quote>pretext build html</quote> to begin creating output files (what you'll publish on the web).</p>
+<p>Got everything up and running? Great! Now we can move onto the best section! Writing!</p>
+</subsection>
+
+<subsection>
+<title>Text Editors and Conversion</title>
+<p>So, Python is installed, PreText is running. Your're itching to get to work. But how? With a text editor. LaTex is the best one to use as not only is the download free, but if run into any problems, you can find a plethora of guides and command lists online. If you're a veteran of LaTex, it's just a matter of diving in and learning the scant differences between PreText and LaTex commands, which you will find below.</p> 
+<p>Once you have LaTex, you will run into the issue of how to open it as a PreText file. Good news, if you're running a Windows system, is conversion is simple! All you need to do is access your file explorer, locate your LaTex document, select  ''Properties'' and change the file extension from .tex to .ptx. Boom. PreText file.</p>
+<p>Here's a link to the LaTex download page: <url href="https://miktex.org/download">LaTex</url></p>
+</subsection>
+
+<subsection>
+<title>Basic Commands</title>
+<p>As with every written work, structure is key. And when it comes to online work, the structure is a heck of a lot more technical. Here's a quick list/breakdown of the basic commands to use for structuring your book:</p>
+<ul>
+<li><p>&lt; chapter&gt; &lt; /chapter &gt; Used to denote chapters of your book. If you plan on writing something with many chapters, or very long chapters however, it may benefit you to do the chapters as separate documents. But, if your book is small enough, the chapter tags should be fine.</p></li>
+<li><p>&lt; section&gt;  &lt; /section&gt; For creating sections. Note that sections will be automatically numbered based upon the chapters they fall in.</p></li>
+<li><p>&lt; subsection&gt;  &lt; /subsection&gt; Adding subsections to your sections. Again, these will be numbered automatically.</p></li>
+<li><p>&lt;title&gt; &lt;/title&gt; Use to name your chapter, section, and/or subsection.</p></li>
+<li><p>&lt; p&gt; &lt; /p&gt; Used for making paragraphs. The &lt; paragraphs&gt; &lt; /paragraphs&gt; command can also be used.</p></li>
+<li><p>&lt; m&gt; &lt; /m&gt; The basic math command. Use it when you want to enter an equation in the middle of a paragraph.</p></li>
+<li><p>&lt; me&gt; &lt; /me&gt; The fancy math command, for when you want to place your equation front and center.</p></li>
+<li><p>&lt; ol&gt; &lt; /ol&gt; Ordered lists</p></li>
+<li><p>&lt; ul&gt; &lt; /ul&gt; Unordered lists.</p></li>
+<li><p>&lt; example&gt; &lt; /example&gt; Create an example.</p></li>
+<li><p>&lt; answer&gt; &lt; /answer&gt; The answer to your example.</p></li>
+<li><p>&lt; solution&gt; &lt; /solution&gt; Provide a solution to your example. Show the reader how you got to the answer.</p></li>
+</ul>
+<aside>
+<p>FYI: When creating lists, you'll need to reference your items with &lt;li&gt; &lt;/li&gt; and &lt;p&gt; &lt;/p&gt;.</p>
+</aside>
+</subsection>
+
+<subsection>
+<title>Commands for Analysis</title>
+<p>Now, for those familiar with analysis, and other proof based classes, you'll remember the material is a bit more than equation computation. There's theorems, definitions, and proofs. So, how are these going to work? Well, you're in luck because PreText also has commands geared towards proof-based texts as well.</p>
+<ul>
+<li><p>&lt;proof&gt; &lt; /proof&gt; The most obvious one. Want to write a proof? Slap this command around what you're trying to prove. Best part? When you display your proof in your output, it will be an expandable link. Fancy!</p></li>
+<li><p>&lt;theorem&gt; &lt;/theorem&gt; Theorems. Like sections, and subsections, theorems will be numbered corresponding to their chapters. This includes named theoreams you may want to add, such as Rolle's Theorem.</p></li>
+<li><p>&lt;definition&gt; &lt; /definition&gt; You can't get through this class without definitions. Want to put them front and center? Use this tag.</p></li>
+</ul>
+</subsection>
+
+<subsection>
+<title>Additional Commands</title>
+<p>These were commands I picked up along the way while working on my project. They're great for further organization and aesthetics. Any additional commands can be found in the PreText Guide: <url href="https://pretextbook.org/doc/guide/html/guide-toc.html">PreText Guide</url></p>
+<ul>
+<li><p>&lt; em&gt; &lt; /em&gt; Italicized. For. <em>Emphasis!</em> Use this when you want to emphasize a term you're using to draw your reader's eye. Or if you want to write a definition without using the definition tag.</p></li>
+<li><p>&lt; note&gt; &lt; /note&gt; Right what it says on the tin. Not really my favorite tage as it tabs the note over and announces the note in bold letters. Notes uaually aren't announced unless they're super important.</p></li>
+<li><p>&lt; aside&gt; &lt;/aside&gt; The <em>real</em> note command (in my opinion). Good for adding a quick side note related to the material when you don't want to break the flow of the main text.</p></li>
+</ul>
+</subsection>
+
+<subsection>
+<title>GitHub and Closing Comments</title>
+<p>Downloading GitHub is an important step to working with PreText, as it will enable you to publish your work online. Also, if you're working in a group, it will allow others to see the changes you've made to your project. Speaking of group work, if you want each individual person to have their own section, then you can create branches in GitHub that will allow for just that. Don't worry about the mechanics of setup for those, gitHub does a great job walking you through it once you create your account and log in. Plus, it's free. Lovely little word, free.</p>
+<p>Of course, at some point you might want to upload images, if for no other reason than to break up the monotony of  text. This can be tricky. Suffice it to say, not only will you have to make use of the &lt;image&gt; &lt;/image&gt; tag, you will need to make sure you have a copy of your image in your source folder. Be sure to create a seperate image folder within your source folder if you plan on having multiple.</p>
+</subsection>
 </section> 
