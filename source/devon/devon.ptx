@@ -39,6 +39,7 @@ Welcome! This is a concise guide for the newly-initiated on how to use PreText! 
 <li><p>&lt; chapter&gt; &lt; /chapter &gt; Used to denote chapters of your book. If you plan on writing something with many chapters, or very long chapters however, it may benefit you to do the chapters as separate documents. But, if your book is small enough, the chapter tags should be fine.</p></li>
 <li><p>&lt; section&gt;  &lt; /section&gt; For creating sections. Note that sections will be automatically numbered based upon the chapters they fall in.</p></li>
 <li><p>&lt; subsection&gt;  &lt; /subsection&gt; Adding subsections to your sections. Again, these will be numbered automatically.</p></li>
+<li><p>&lt;title&gt; &lt;/title&gt; Use to name your chapter, section, and/or subsection.</p></li>
 <li><p>&lt; p&gt; &lt; /p&gt; Used for making paragraphs. The &lt; paragraphs&gt; &lt; /paragraphs&gt; command can also be used.</p></li>
 <li><p>&lt; m&gt; &lt; /m&gt; The basic math command. Use it when you want to enter an equation in the middle of a paragraph.</p></li>
 <li><p>&lt; me&gt; &lt; /me&gt; The fancy math command, for when you want to place your equation front and center.</p></li>
@@ -73,4 +74,9 @@ Welcome! This is a concise guide for the newly-initiated on how to use PreText! 
 </ul>
 </subsection>
 
+<subsection>
+<title>GitHub and Closing Comments</title>
+<p>Downloading GitHub is an important step to working with PreText, as it will enable you to publish your work online. Also, if you're working in a group, it will allow others to see the changes you've made to your project. Speaking of group work, if you want each individual person to have their own section, then you can create branches in GitHub that will allow for just that. Don't worry about the mechanics of setup for those, gitHub does a great job walking you through it once you create your account and log in. Plus, it's free. Lovely little word, free.</p>
+<p>Of course, at some point you might want to upload images, if for no other reason than to break up the monotony of  text. This can be tricky. Suffice it to say, not only will you have to make use of the &lt;image&gt; &lt;/image&gt; tag, you will need to make sure you have a copy of your image in your source folder. Be sure to create a seperate image folder within your source folder if you plan on having multiple.</p>
+</subsection>
 </section> 
