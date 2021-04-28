@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2021-04-25T20:36:33-07:00       *-->
+<!--*       on 2021-04-27T18:15:01-07:00       *-->
 <!--*   A recent stable commit (2020-08-09):   *-->
 <!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
 <!--*                                          *-->
@@ -102,23 +102,43 @@ MathJax.Hub.Config({
 <p id="p-6">Once Python is installed, open your command prompt (Hit the Windows symbol key and x, select run, and type cmd.exe), and enter python -V. If the installation was successful, the command prompt should be able to locate Python and tell you the version you have installed. Note, that you will need Version 3.6 or better.</p>
 <p id="p-7">Afterwards, you'll need to pick the directory where you want PreText to pull from. Picking the directory from the command prompt is simple. We'll use my directory as an example. Once my commnd prompt is open, I enter cd Documents\GitHub\Publishing. Once the directory has been changed, the command prompt will autofill the next line with your desired directory. Afterward, typepretext build html to begin creating output files (what you'll publish on the web).</p>
 <p id="p-8">Got everything up and running? Great! Now we can move onto the best section! Writing!</p></section><section class="subsection" id="subsection-4"><h3 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">1.3.3</span> <span class="title">Basic Commands</span>
+<span class="type">Subsection</span> <span class="codenumber">1.3.3</span> <span class="title">Text Editors and Conversion</span>
 </h3>
-<p id="p-9">As with every written work, structure is key. And when it comes to online work, the structure is a heck of a lot more technical. Here's a quick list/breakdown of the basic commands to use for structuring your book:</p>
-<ul class="disc">
-<li id="li-2"><p id="p-10">&lt; chapter&gt; &lt; /chapter &gt; Used to denote chapters of your book. If you plan on writing something with many chapters, or very long chapters however, it may benefit you to do the chapters as separate documents. But, if your book is small enough, the chapter tags should be fine.</p></li>
-<li id="li-3"><p id="p-11">&lt; section&gt;  &lt; /section&gt; For creating sections. Note that sections will be automatically numbered based upon the chapters they fall in.</p></li>
-<li id="li-4"><p id="p-12">&lt; subsection&gt;  &lt; /subsection&gt; Adding subsections to your sections. Again, these will be numbered automatically.</p></li>
-<li id="li-5"><p id="p-13">&lt; p&gt; &lt; /p&gt; Used for making paragraphs. The &lt; paragraphs&gt; &lt; /paragraphs&gt; command can also be used.</p></li>
-<li id="li-6"><p id="p-14">&lt; m&gt; &lt; /m&gt; The basic math command. Use it when you want to enter an equation in the middle of a paragraph.</p></li>
-<li id="li-7"><p id="p-15">&lt; me&gt; &lt; /me&gt; The fancy math command, for when you want to place your equation front and center.</p></li>
-</ul></section><section class="subsection" id="subsection-5"><h3 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">1.3.4</span> <span class="title">Commands for Analysis</span>
+<p id="p-9">So, Python is installed, PreText is running. Your're itching to get to work. But how? With a text editor. LaTex is the best one to use as not only is the download free, but if run into any problems, you can find a plethora of guides and command lists online. If you're a veteran of LaTex, it's just a matter of diving in and learning the scant differences between PreText and LaTex commands, which you will find below.</p>
+<p id="p-10">Once you have LaTex, you will run into the issue of how to open it as a PreText file. Good news, if you're running a Windows system, is conversion is simple! All you need to do is access your file explorer, locate your LaTex document, select  ''Properties'' and change the file extension from .tex to .ptx. Boom. PreText file.</p>
+<p id="p-11">Here's a link to the LaTex download page: <a class="external" href="https://miktex.org/download" target="_blank">LaTex</a></p></section><section class="subsection" id="subsection-5"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.3.4</span> <span class="title">Basic Commands</span>
 </h3>
-<p id="p-16">Now, for those familiar with analysis, and other proof based classes, you'll remember the material is a bit more than equation computation. There's theorems, definitions, and proofs. So, how are these going to work? Well, you're in luck because PreText also has commands geared towards proof-based texts as well.</p>
+<p id="p-12">As with every written work, structure is key. And when it comes to online work, the structure is a heck of a lot more technical. Here's a quick list/breakdown of the basic commands to use for structuring your book:</p>
 <ul class="disc">
-<li id="li-8"><p id="p-17">&lt;proof&gt; &lt; /proof&gt; The most obvious one. Want to write a proof? Slap this command around what you're trying to prove. Best part? When you display your proof in your output, it will be an expandable link. Fancy!</p></li>
-<li id="li-9"><p id="p-18">&lt;theorem&gt; &lt;/theorem&gt; Theorems. Like sections, and subsections, theorems will be numbered corresponding to their chapters. This includes named theoreams you may want to add, such as Rolle's Theorem.</p></li>
+<li id="li-2"><p id="p-13">&lt; chapter&gt; &lt; /chapter &gt; Used to denote chapters of your book. If you plan on writing something with many chapters, or very long chapters however, it may benefit you to do the chapters as separate documents. But, if your book is small enough, the chapter tags should be fine.</p></li>
+<li id="li-3"><p id="p-14">&lt; section&gt;  &lt; /section&gt; For creating sections. Note that sections will be automatically numbered based upon the chapters they fall in.</p></li>
+<li id="li-4"><p id="p-15">&lt; subsection&gt;  &lt; /subsection&gt; Adding subsections to your sections. Again, these will be numbered automatically.</p></li>
+<li id="li-5"><p id="p-16">&lt; p&gt; &lt; /p&gt; Used for making paragraphs. The &lt; paragraphs&gt; &lt; /paragraphs&gt; command can also be used.</p></li>
+<li id="li-6"><p id="p-17">&lt; m&gt; &lt; /m&gt; The basic math command. Use it when you want to enter an equation in the middle of a paragraph.</p></li>
+<li id="li-7"><p id="p-18">&lt; me&gt; &lt; /me&gt; The fancy math command, for when you want to place your equation front and center.</p></li>
+<li id="li-8"><p id="p-19">&lt; ol&gt; &lt; /ol&gt; Ordered lists</p></li>
+<li id="li-9"><p id="p-20">&lt; ul&gt; &lt; /ul&gt; Unordered lists.</p></li>
+<li id="li-10"><p id="p-21">&lt; example&gt; &lt; /example&gt; Create an example.</p></li>
+<li id="li-11"><p id="p-22">&lt; answer&gt; &lt; /answer&gt; The answer to your example.</p></li>
+<li id="li-12"><p id="p-23">&lt; solution&gt; &lt; /solution&gt; Provide a solution to your example. Show the reader how you got to the answer.</p></li>
+</ul>
+<aside class="aside aside-like" id="aside-1"><p id="p-24">FYI: When creating lists, you'll need to reference your items with &lt;li&gt; &lt;/li&gt; and &lt;p&gt; &lt;/p&gt;.</p></aside></section><section class="subsection" id="subsection-6"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.3.5</span> <span class="title">Commands for Analysis</span>
+</h3>
+<p id="p-25">Now, for those familiar with analysis, and other proof based classes, you'll remember the material is a bit more than equation computation. There's theorems, definitions, and proofs. So, how are these going to work? Well, you're in luck because PreText also has commands geared towards proof-based texts as well.</p>
+<ul class="disc">
+<li id="li-13"><p id="p-26">&lt;proof&gt; &lt; /proof&gt; The most obvious one. Want to write a proof? Slap this command around what you're trying to prove. Best part? When you display your proof in your output, it will be an expandable link. Fancy!</p></li>
+<li id="li-14"><p id="p-27">&lt;theorem&gt; &lt;/theorem&gt; Theorems. Like sections, and subsections, theorems will be numbered corresponding to their chapters. This includes named theoreams you may want to add, such as Rolle's Theorem.</p></li>
+<li id="li-15"><p id="p-28">&lt;definition&gt; &lt; /definition&gt; You can't get through this class without definitions. Want to put them front and center? Use this tag.</p></li>
+</ul></section><section class="subsection" id="subsection-7"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.3.6</span> <span class="title">Additional Commands</span>
+</h3>
+<p id="p-29">These were commands I picked up along the way while working on my project. They're great for further organization and aesthetics. Any further commands can be found in the PreText Guide: <a class="external" href="https://pretextbook.org/doc/guide/html/guide-toc.html" target="_blank">PreText Guide</a></p>
+<ul class="disc">
+<li id="li-16"><p id="p-30">&lt; em&gt; &lt; /em&gt; Italicized. For. <em class="emphasis">Emphasis!</em> Use this when you want to emphasize a term you're using to draw your reader's eye. Or if you want to write a definition without using the definition tag.</p></li>
+<li id="li-17"><p id="p-31">&lt; note&gt; &lt; /note&gt; Right what it says on the tin. Not really my favorite tage as it tabs the note over and announces the note in bold letters. Notes uaually aren't announced unless they're super important.</p></li>
+<li id="li-18"><p id="p-32">&lt; aside&gt; &lt;/aside&gt; The <em class="emphasis">real</em> note command (in my opinion). Good for adding a quick side note related to the material when you don't want to break the flow of the main text.</p></li>
 </ul></section></section></div></main>
 </div>
 </body>
