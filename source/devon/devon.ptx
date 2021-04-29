@@ -4,6 +4,7 @@
 
 
 <paragraphs xml:id="sample-devon">
+<title></title>                     <!--( <paragraphs> requires a title, but <p> can be used by itself )-->
 Welcome! This is a concise guide for the newly-initiated on how to use PreText! Follow these steps, and you'll be creating and editing your own texts in no time!
 </paragraphs>
 <note>
